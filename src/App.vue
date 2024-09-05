@@ -38,4 +38,25 @@ import { ChevronDoubleDownIcon } from '@heroicons/vue/24/outline';
     background-size: cover;
     background-position: center;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+section:not(:first-of-type) {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: entry 30% cover 40%;
+}
 </style>
