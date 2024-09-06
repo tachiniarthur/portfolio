@@ -1,10 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-    font-family: 'JetBrains';
-    src: url(./assets/fonts/JetBrains_Mono/static/JetBrainsMono-Medium.ttf) format(opentype);
-    font-style: normal;
-    font-display: swap;
-}
