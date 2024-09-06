@@ -5,7 +5,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
 <template>
     <section id="experiences">
 
-        <div class="mx-auto max-w-2xl pt-12 pb-32 sm:pb-48 sm:pt-28 lg:pt-36 lg:pb-44 px-8">
+        <div class="mx-auto max-w-2xl pt-12 pb-32 sm:pb-48 sm:pt-28 lg:pt-36 lg:pb-44 px-8 md:px-0">
             <div class="text-center">
 
                 <h1 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Experiences</h1>

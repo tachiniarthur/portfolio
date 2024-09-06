@@ -33,7 +33,7 @@ const skills = ref([
 <template>
     <section class="bg-custom" id="skills">
 
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:pt-48 lg:pb-24 px-8 md:px-12 lg:px-20">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:pt-48 lg:pb-24 px-8 md:px-0">
             <div class="flex flex-col justify-center text-center items-center slide-animation">
                 <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Skills</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-6 lg:gap-y-6 mt-6">
