@@ -5,7 +5,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
 <template>
     <section id="experiences">
 
-        <div class="mx-auto max-w-2xl pt-12 pb-32 sm:pb-48 sm:pt-28 lg:pt-36 lg:pb-44 px-8 md:px-0">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
             <div class="text-center">
 
                 <h1 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Experiences</h1>
@@ -48,8 +48,8 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
         </div>
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
-            <a href="#experiences">
-                <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce" aria-hidden="true" />
+            <a href="#home">
+                <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
             </a>
         </div>
 
