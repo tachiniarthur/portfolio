@@ -1,17 +1,6 @@
 <script setup>
-import { ref } from 'vue';
 import { ChevronDoubleDownIcon } from '@heroicons/vue/24/outline';
-
-const projects = ref([
-    {
-        title: 'Project 1',
-        image: 'https://via.placeholder.com/500',
-    },
-    {
-        title: 'Project 2',
-        image: 'https://via.placeholder.com/500',
-    },
-]);
+import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
 </script>
 
 <template>
@@ -20,10 +9,54 @@ const projects = ref([
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
             <div class="flex flex-col justify-center items-center slide-animation">
                 <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Projects</h2>
-                <div class="flex flex-col lg:flex-row items-center lg:gap-10 mt-6">
-                    <div v-for="project in projects" class="flex flex-col items-center">
-                        <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ project.title }}</h3>
-                        <img :src="project.image" />
+                <div class="flex flex-col mt-6 gap-6">
+                    <div class="rounded-lg p-8 flex flex-col items-center shadow-lg">
+                        <h3 class="text-2xl font-bold tracking-tight text-gray-900 text-center">Patos Digitais</h3>
+                        <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">The Patos Digitais project is a social network aimed at providing a free space where users can interact with each other, meet new people, and share their daily experiences and feelings. The platform allows users to express their thoughts, emotions, and experiences authentically, creating meaningful connections and strengthening the sense of community.</p>
+                        <h3 class="mt-8 text-xl font-bold tracking-tight text-gray-900 text-center">Technologies</h3>
+                        <div class="mt-4 grid grid-cols-4 gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://raw.githubusercontent.com/innocenzi/awesome-inertiajs/master/assets/logo.svg?sanitize=true" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                        </div>
+                        <a target="_blank" href="https://github.com/tachiniarthur/patos-digitais" class="mt-6 border border-[#4B5563] py-1 px-4 rounded-lg bg-white flex items-center font-semibold text-gray-900 hover:scale-110 duration-500">
+                            View Github
+                            <ArrowTopRightOnSquareIcon class="h-5 w-5 ml-2" aria-hidden="true" />
+                        </a>
+                    </div>
+                    <div class="rounded-lg p-8 flex flex-col items-center shadow-lg">
+                        <h3 class="text-2xl font-bold tracking-tight text-gray-900 text-center">O Patusco</h3>
+                        <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">The O Patusco project is an initiative by a veterinary clinic that allows users to register their pets and schedule medical appointments with specialized professionals. The platform offers a practical and convenient way to manage the health and well-being of pets.</p>
+                        <h3 class="mt-8 text-xl font-bold tracking-tight text-gray-900 text-center">Technologies</h3>
+                        <div class="mt-4 grid grid-cols-4 gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://raw.githubusercontent.com/innocenzi/awesome-inertiajs/master/assets/logo.svg?sanitize=true" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                        </div>
+                        <a target="_blank" href="https://github.com/tachiniarthur/o-patusco" class="mt-6 border border-[#4B5563] py-1 px-4 rounded-lg bg-white flex items-center font-semibold text-gray-900 hover:scale-110 duration-500">
+                            View Github
+                            <ArrowTopRightOnSquareIcon class="h-5 w-5 ml-2" aria-hidden="true" />
+                        </a>
+                    </div>
+                    <div class="rounded-lg p-8 flex flex-col items-center shadow-lg">
+                        <h3 class="text-2xl font-bold tracking-tight text-gray-900 text-center">Autostock Manager</h3>
+                        <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">
+                            The Autostock Manager project is a platform developed to organize vehicle sales. It allows users to register multiple vehicles, manage their information, and add different users to view and edit these records. The system is powered by an API developed in Java with Spring Boot, ensuring robustness and efficiency in data management.
+                            <a target="_blank" href="https://github.com/tachiniarthur/api-autostockmanager" class="block hover:scale-110 duration-500 font-bold underline mt-2">(Autostock Manager API)</a>
+                        </p>
+                        <h3 class="mt-8 text-xl font-bold tracking-tight text-gray-900 text-center">Technologies</h3>
+                        <div class="mt-4 grid grid-cols-4 gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" class="h-10 w-10 hover:scale-110 duration-500">
+                        </div>
+                        <a target="_blank" href="https://github.com/tachiniarthur/front-autostockmanager" class="mt-6 border border-[#4B5563] py-1 px-4 rounded-lg bg-white flex items-center font-semibold text-gray-900 hover:scale-110 duration-500">
+                            View Github
+                            <ArrowTopRightOnSquareIcon class="h-5 w-5 ml-2" aria-hidden="true" />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import About from './components/About.vue';
 import Skills from './components/Skills.vue';
 import Experiences from './components/Experiences.vue';
 import Projects from './components/Projects.vue';
+import Recomentions from './components/Recomentions.vue';
 import Contact from './components/Contact.vue';
 </script>
 
@@ -16,6 +17,7 @@ import Contact from './components/Contact.vue';
     <Skills />
     <Experiences />
     <Projects />
+    <Recomentions />
     <Contact />
 
     <footer class="bg-gray-800 text-white py-8 text-center">
