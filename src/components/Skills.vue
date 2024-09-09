@@ -4,7 +4,6 @@ import { ChevronDoubleDownIcon } from '@heroicons/vue/24/outline';
 
 const skills = ref([
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',  
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg',
@@ -37,8 +36,8 @@ const skills = ref([
             <div class="flex flex-col justify-center text-center items-center slide-animation">
                 <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Skills</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-6 lg:gap-y-6 mt-6">
-                    <div class="bg-[#EEEEEE] shadow-lg rounded-lg p-4" v-for="skill in skills">
-                        <img :src="skill" class="w-20 h-20" />
+                    <div class="bg-white shadow-lg rounded-lg p-4 hover:scale-110 duration-500" v-for="skill in skills">
+                        <img :src="skill" class="w-16 h-16" />
                     </div>
                 </div>
             </div>

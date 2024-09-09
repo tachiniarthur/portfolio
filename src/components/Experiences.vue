@@ -19,7 +19,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
                         <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                             <div class="flex items-center justify-between space-x-2 mb-2">
                                 <span class="font-bold text-start text-sm text-gray-800">Fullstack Developer Junior</span>
-                                <span class="text-end text-sm text-blue-500">2024 - Present</span>
+                                <span class="text-end text-xs text-blue-500">2024 - Present</span>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-start text-sm text-gray-600">Worked on various high-level web projects using technologies such as PHP, Laravel (SOLID, DDD), HTML, CSS, Sass, Bootstrap, JavaScript, Vue, MongoDB, Oracle, and Docker. Also trained and mentored junior team members in best development practices.</span>
@@ -34,7 +34,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
                         <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
                             <div class="flex items-center justify-between space-x-2 mb-2">
                                 <span class="font-bold text-start text-sm text-gray-800">Trainee Developer</span>
-                                <span class="text-end text-sm text-blue-500">2022 - 2024</span>
+                                <span class="text-end text-xs text-blue-500">2022 - 2024</span>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-start text-sm text-gray-600">Developed and maintained various web projects using PHP, Laravel, HTML, CSS, Sass, Bootstrap, JavaScript, and Docker. Provided guidance and training to junior team members in development techniques.</span>
