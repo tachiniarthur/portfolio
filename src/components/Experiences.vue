@@ -6,7 +6,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
     <section id="experiences">
 
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
-            <div class="text-center">
+            <div class="text-center slide-animation">
 
                 <h1 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Experiences</h1>
 
@@ -16,9 +16,9 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
                         <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-gray-600 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                             <BriefcaseIcon class="w-5 h-5" aria-hidden="true" />
                         </div>
-                        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+                        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow hover:scale-105 duration-500">
                             <div class="flex items-center justify-between space-x-2 mb-2">
-                                <span class="font-bold text-start text-sm text-gray-800">Fullstack Developer Junior</span>
+                                <span class="font-bold text-start text-sm text-gray-800">Fullstack Developer Junior - FACE Digital</span>
                                 <span class="text-end text-xs text-blue-500">2024 - Present</span>
                             </div>
                             <div class="flex items-center">
@@ -31,9 +31,9 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
                         <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-gray-600 group-[.is-active]:text-blue-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                             <CheckIcon class="w-5 h-5" aria-hidden="true" />
                         </div>
-                        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+                        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow hover:scale-105 duration-500">
                             <div class="flex items-center justify-between space-x-2 mb-2">
-                                <span class="font-bold text-start text-sm text-gray-800">Trainee Developer</span>
+                                <span class="font-bold text-start text-sm text-gray-800">Trainee Developer - FACE Digital</span>
                                 <span class="text-end text-xs text-blue-500">2022 - 2024</span>
                             </div>
                             <div class="flex items-center">
@@ -48,7 +48,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
         </div>
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
-            <a href="#home">
+            <a href="#projects">
                 <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
             </a>
         </div>

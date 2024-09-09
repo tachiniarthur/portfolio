@@ -63,7 +63,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
         </div>
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
-            <a href="#contact">
+            <a href="#recommendations">
                 <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
             </a>
         </div>

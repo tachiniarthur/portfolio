@@ -5,11 +5,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 const navigation = [
     { name: 'Home', href: '#home' },
-    { name: 'About Me', href: '#about' },
+    { name: 'About me', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Experiences', href: '#experiences' },
-    { name: 'Projects', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Recommendations', href: '#recommendations' },
+    { name: 'Contact', href: '#contact' },
 ];
 
 const mobileMenuOpen = ref(false);
