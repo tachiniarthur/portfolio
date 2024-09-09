@@ -4,8 +4,9 @@ import { Dialog, DialogPanel } from '@headlessui/vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 const navigation = [
-    { name: 'Home', href: '#' },
+    { name: 'Home', href: '#home' },
     { name: 'About Me', href: '#about' },
+    { name: 'Skills', href: '#skills' },
     { name: 'Experiences', href: '#experiences' },
     { name: 'Projects', href: '#' },
     { name: 'Contact', href: '#' },
@@ -18,7 +19,7 @@ const mobileMenuOpen = ref(false);
     <header class="sticky top-0 bg-white z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
+                <a href="home" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
                     <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
                 </a>
@@ -49,7 +50,7 @@ const mobileMenuOpen = ref(false);
                 <div class="mt-6 flow-root">
                     <div class="-my-6">
                         <div class="space-y-2 py-6">
-                            <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
+                            <a v-for="item in navigation" :key="item.name" :href="item.href" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                         </div>
                     </div>
                 </div>
