@@ -7,7 +7,7 @@ html {
 }
 
 .bg-custom {
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.7), rgba(245, 245, 245, 0.7)), url(./assets/common-bg.svg);
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.7), rgba(245, 245, 245, 0.7)), url(./assets/common-bg.webp);
     background-size: cover;
     background-position: center;
     position: relative;

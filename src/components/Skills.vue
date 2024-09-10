@@ -34,12 +34,12 @@ const skills = ref([
 <template>
     <section class="bg-custom" id="skills">
 
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
+        <div class="mx-auto max-w-2xl py-32 md:py-48 px-8 md:px-0">
             <div class="flex flex-col justify-center text-center items-center slide-animation">
                 <h2 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Skills</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-6 lg:gap-y-6">
                     <div class="bg-white shadow-lg rounded-lg p-4 hover:scale-110 duration-500" v-for="skill in skills">
-                        <img :src="skill" alt="Logo Linguagem de Programação" class="w-16 h-16" />
+                        <img :src="skill" alt="Logo languages" class="w-16 h-16" />
                     </div>
                 </div>
             </div>
