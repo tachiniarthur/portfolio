@@ -49,7 +49,7 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
             <a href="#projects" aria-label="Next section">
-                <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
+                <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-40" aria-hidden="true" />
             </a>
         </div>
 
