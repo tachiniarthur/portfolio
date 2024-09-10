@@ -16,7 +16,7 @@ import { ChevronDoubleDownIcon } from '@heroicons/vue/24/outline';
         </div>
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
-            <a href="#about">
+            <a href="#about" aria-label="Next section">
                 <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
             </a>
         </div>
