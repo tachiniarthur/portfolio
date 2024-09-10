@@ -39,14 +39,14 @@ const skills = ref([
                 <h2 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Skills</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-6 lg:gap-y-6">
                     <div class="bg-white shadow-lg rounded-lg p-4 hover:scale-110 duration-500" v-for="skill in skills">
-                        <img :src="skill" class="w-16 h-16" />
+                        <img :src="skill" alt="Logo Linguagem de Programação" class="w-16 h-16" />
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="mx-auto max-w-2xl flex items-center justify-center">
-            <a href="#experiences">
+            <a href="#experiences" aria-label="Next section">
                 <ChevronDoubleDownIcon class="h-8 w-8 animate-bounce relative z-50" aria-hidden="true" />
             </a>
         </div>

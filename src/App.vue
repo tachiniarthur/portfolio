@@ -12,13 +12,15 @@ import Contact from './components/Contact.vue';
 <template>
     <Header />
 
-    <Home />
-    <About />
-    <Skills />
-    <Experiences />
-    <Projects />
-    <Recommendations />
-    <Contact />
+    <main>
+        <Home />
+        <About />
+        <Skills />
+        <Experiences />
+        <Projects />
+        <Recommendations />
+        <Contact />
+    </main>
 
     <footer class="bg-gray-800 text-white py-8 text-center">
         <p class="text-sm">&copy; 2021 Arthur Tachini. All rights reserved.</p>
