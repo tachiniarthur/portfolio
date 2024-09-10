@@ -7,6 +7,7 @@ import Experiences from './components/Experiences.vue';
 import Projects from './components/Projects.vue';
 import Recommendations from './components/Recommendations.vue';
 import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -22,9 +23,7 @@ import Contact from './components/Contact.vue';
         <Contact />
     </main>
 
-    <footer class="bg-gray-800 text-white py-8 text-center">
-        <p class="text-sm">&copy; 2021 Arthur Tachini. All rights reserved.</p>
-    </footer>
+    <Footer />
 </template>
 
 <style>

@@ -34,7 +34,7 @@ onUnmounted(() => {
 
 <template>
     <section class="bg-custom" id="recommendations">
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
+        <div class="mx-auto max-w-2xl py-32 md:py-48 px-8 md:px-0">
             <div class="flex flex-col justify-center items-center slide-animation">
                 <h2 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Recomendations</h2>
 
@@ -52,10 +52,10 @@ onUnmounted(() => {
                                         class="flex items-center justify-center space-x-2 hover:scale-110 duration-500 z-30"
                                         aria-label="Redirect to LinkedIn Walter Coan profile"
                                     >
-                                        <img src="../assets/walter.svg" alt="Foto de usuário da recomendação" class="rounded-full h-10 w-10" />
+                                        <img src="../assets/walter.svg" alt="Photo user recommendation" class="rounded-full h-10 w-10" />
                                         <span class="text-xl font-bold tracking-tight text-gray-900">Walter Coan</span>
                                     </a>
-                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">I was Arthur's professor in the Software Factory course in 2024, where he was able to develop a web information system for event management aimed at people who like sports cars. The application was developed using the Vue.js framework and a Rest API with Spring Boot. In addition, Arthur regularly participates in study groups preparing for the Azure Fundamentals (AZ-900) and AWS Cloud Practitioner certification exams.</p>
+                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">"I was Arthur's professor in the Software Factory course in 2024, where he was able to develop a web information system for event management aimed at people who like sports cars. The application was developed using the Vue.js framework and a Rest API with Spring Boot. In addition, Arthur regularly participates in study groups preparing for the Azure Fundamentals (AZ-900) and AWS Cloud Practitioner certification exams."</p>
                                 </div>
                             </div>
                             <div class="w-full flex-shrink-0 px-14">
@@ -66,10 +66,10 @@ onUnmounted(() => {
                                         class="flex items-center justify-center space-x-2 hover:scale-110 duration-500 z-30"
                                         aria-label="Redirect to LinkedIn Thiago Rodrigues profile"
                                     >
-                                        <img src="../assets/thiago.svg" alt="Foto de usuário da recomendação" class="rounded-full h-10 w-10" />
+                                        <img src="../assets/thiago.svg" alt="Photo user recommendation" class="rounded-full h-10 w-10" />
                                         <span class="text-xl font-bold tracking-tight text-gray-900">Thiago Rodrigues</span>
                                     </a>
-                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">I worked with Arthur on several projects, and I certainly learned a lot from him. He is a very dedicated professional who strives to learn something new in every project. His knowledge of Laravel and Vue helped in the construction of complex pages and functionalities. If you are looking for a dedicated and talented professional, then you are definitely looking for Arthur.</p>
+                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">"I worked with Arthur on several projects, and I certainly learned a lot from him. He is a very dedicated professional who strives to learn something new in every project. His knowledge of Laravel and Vue helped in the construction of complex pages and functionalities. If you are looking for a dedicated and talented professional, then you are definitely looking for Arthur."</p>
                                 </div>
                             </div>
                             <div class="w-full flex-shrink-0 px-14">
@@ -80,10 +80,10 @@ onUnmounted(() => {
                                         class="flex items-center justify-center space-x-2 hover:scale-110 duration-500 z-30"
                                         aria-label="Redirect to LinkedIn Matheus Bittencourt profile"
                                     >
-                                        <img src="../assets/matheus.svg" alt="Foto de usuário da recomendação" class="rounded-full h-10 w-10" />
+                                        <img src="../assets/matheus.svg" alt="Photo user recommendation" class="rounded-full h-10 w-10" />
                                         <span class="text-xl font-bold tracking-tight text-gray-900">Matheus Bittencourt</span>
                                     </a>
-                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">I had the opportunity to collaborate with Arthur on several projects, and I can affirm that I learned a lot from him. He is an extremely dedicated professional, always looking to acquire new knowledge in each task. His expertise in Laravel and Vue was fundamental to the development of web applications and complex functionalities on specific pages. If you are looking for a committed and talented professional, Arthur is undoubtedly the right person.</p>
+                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">"I had the opportunity to collaborate with Arthur on several projects, and I can affirm that I learned a lot from him. He is an extremely dedicated professional, always looking to acquire new knowledge in each task. His expertise in Laravel and Vue was fundamental to the development of web applications and complex functionalities on specific pages. If you are looking for a committed and talented professional, Arthur is undoubtedly the right person."</p>
                                 </div>
                             </div>
                             
@@ -95,10 +95,10 @@ onUnmounted(() => {
                                         class="flex items-center justify-center space-x-2 hover:scale-110 duration-500 z-30"
                                         aria-label="Redirect to LinkedIn Giordano Gava profile"
                                     >
-                                        <img src="../assets/giordano.svg" alt="Foto de usuário da recomendação" class="rounded-full h-10 w-10" />
+                                        <img src="../assets/giordano.svg" alt="Photo user recommendation" class="rounded-full h-10 w-10" />
                                         <span class="text-xl font-bold tracking-tight text-gray-900">Giordano Gava</span>
                                     </a>
-                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">I study with Arthur at the university, and we have already done some group projects together. He has demonstrated a vast knowledge of programming, especially in Vue.js and Laravel. In addition, he is a very focused person and works very well in a team.</p>
+                                    <p class="mt-4 sm:text-lg leading-8 text-gray-600 text-center">"I study with Arthur at the university, and we have already done some group projects together. He has demonstrated a vast knowledge of programming, especially in Vue.js and Laravel. In addition, he is a very focused person and works very well in a team."</p>
                                 </div>
                             </div>
                         </div>

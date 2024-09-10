@@ -17,10 +17,10 @@ const mobileMenuOpen = ref(false);
 </script>
 
 <template>
-    <header class="sticky top-0 bg-white z-50">
+    <header class="sticky top-0 bg-[#F6F6F6] z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
-                <a href="home" class="-m-1.5 p-1.5" aria-label="Redirect to home section">
+                <a href="#home" class="-m-1.5 p-1.5" aria-label="Redirect to home section">
                     <span class="sr-only">Your Company</span>
                     <img class="h-16 w-32" src="../assets/my-profile-header.svg" alt="My photo profile" />
                 </a>
@@ -39,7 +39,7 @@ const mobileMenuOpen = ref(false);
             <div class="fixed inset-0 z-50" />
             <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
-                    <a href="#" class="-m-1.5 p-1.5" aria-label="Redirect to home section">
+                    <a href="#home" class="-m-1.5 p-1.5" aria-label="Redirect to home section">
                         <span class="sr-only">Your Company</span>
                         <img class="h-16 w-32" src="../assets/my-profile-header.svg" alt="My photo profile" />
                     </a>

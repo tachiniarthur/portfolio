@@ -6,7 +6,7 @@ import { ChevronDoubleDownIcon } from '@heroicons/vue/24/outline';
 <template>
     <section id="about">
 
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48 px-8 md:px-0">
+        <div class="mx-auto max-w-2xl py-32 md:py-48 px-8 md:px-0">
             <div class="flex flex-col justify-center items-center slide-animation">
                 <h2 class="mb-14 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">About me</h2>
                 <div class="flex flex-col lg:flex-row items-center lg:gap-10">
