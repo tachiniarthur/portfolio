@@ -36,7 +36,7 @@ const mobileMenuOpen = ref(false);
         </nav>
         <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
             <div class="fixed inset-0 z-50" />
-            <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#F6F6F6] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
                     <a href="#home" class="-m-1.5 p-1.5" aria-label="Redirect to home section" @click="mobileMenuOpen = false">
                         <img class="h-16 w-32" src="../assets/my-profile-header.svg" alt="My photo profile" />
