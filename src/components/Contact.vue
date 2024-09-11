@@ -24,6 +24,13 @@ const sendEmail = (e) => {
         return;
     }
 
+    const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    if (!emailRegex.test(email.value)) {
+        setFeedback('Please enter a valid email address.', 'error');
+        isLoading.value = false;
+        return;
+    }
+
     const templateParams = {
         from_name: name.value,
         from_email: email.value,
