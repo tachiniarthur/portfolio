@@ -18,8 +18,23 @@ import { BriefcaseIcon, CheckIcon, ChevronDoubleDownIcon } from '@heroicons/vue/
                         </div>
                         <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow hover:scale-105 duration-500">
                             <div class="flex items-center justify-between space-x-2 mb-2">
-                                <span class="font-bold text-start text-sm text-gray-800">Fullstack Developer Junior - FACE Digital</span>
+                                <span class="font-bold text-start text-sm text-gray-800">PHP Developer - Softexpert</span>
                                 <span class="text-end text-xs text-gray-800">2024 - Present</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="text-start text-sm text-gray-600">I worked on creating external applications developed in PHP for customization within Se Suite developed by Softexpert. In addition to working on creating queries using SQL.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-gray-600 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                            <BriefcaseIcon class="w-5 h-5" aria-hidden="true" />
+                        </div>
+                        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow hover:scale-105 duration-500">
+                            <div class="flex items-center justify-between space-x-2 mb-2">
+                                <span class="font-bold text-start text-sm text-gray-800">Fullstack Developer Junior - FACE Digital</span>
+                                <span class="text-end text-xs text-gray-800">2024 - 2024</span>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-start text-sm text-gray-600">Worked on various high-level web projects using technologies such as PHP, Laravel (SOLID, DDD), HTML, CSS, Sass, Bootstrap, JavaScript, Vue, MongoDB, Oracle, and Docker. Also trained and mentored junior team members in best development practices.</span>
